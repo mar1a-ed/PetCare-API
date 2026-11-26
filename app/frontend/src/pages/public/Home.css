@@ -1,0 +1,68 @@
+.inicio-sessao{
+    background-image: url('../../assets/fundo2.png');
+    background-size: cover;
+    background-position: center;
+    min-height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.inicio-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.pets-img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.pets-img img{
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.inicio-texto{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.inicio-texto h1{
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+}
+
+.inicio-texto p{
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+}
+
+.inicio-texto .saiba-mais{
+    background-color: #FA6220;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px 45px;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.inicio-texto .saiba-mais:hover{
+    background-color: #d95314;
+    transform: translateY(-2px);
+}
