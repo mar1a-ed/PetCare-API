@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 import './Tipografia.css'
 
@@ -8,7 +9,7 @@ function Navbar(){
                 <div className="logo"></div>
 
                 <ul className="esquerda">
-                    <li><a href='#inicio'>Início</a></li>
+                    <li><Link to='/'>Início</Link></li>
                     <li><a href='#servicos'>Serviços</a></li>
                     <li><a href='#agendar'>Agendar</a></li>
                     <li><a href='#sobre'>Sobre Nós</a></li>
@@ -16,7 +17,7 @@ function Navbar(){
                 </ul>
 
                 <ul className="direita">
-                    <li><a className="criar-conta" href='#cadastro'>Criar Conta</a></li>
+                    <li><Link className="criar-conta" to='/cadastro'>Criar Conta</Link></li>
                     <div className="user-icon"></div>
                 </ul>
             </nav>

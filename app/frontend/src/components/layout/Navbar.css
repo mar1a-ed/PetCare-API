@@ -15,6 +15,7 @@ nav.navbar{
     z-index: 10;
 }
 
+/*logo*/
 nav div.logo{
     background-image: url('../src/assets/logo-sem-fundo.png');
     width: 100px;

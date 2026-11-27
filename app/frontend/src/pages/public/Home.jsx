@@ -1,5 +1,6 @@
 import './Home.css'
 import petCapa from '../../assets/Capa-inicio.webp'
+import '../../components/layout/Tipografia.css'
 
 function Home(){
     return (
